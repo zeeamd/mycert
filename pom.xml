@@ -427,20 +427,10 @@
                         <version>${cobertura.version}</version>
                         <configuration>
                             <formats>
-                                <!-- <format>html</format> -->
+                                <format>html</format>
                                 <format>xml</format>
                             </formats>
                         </configuration>
-                        <!-- adding block to generate Cobertura Report -->
-                        <executions>
-                                <execution>
-                                    <phase>package</phase>
-                                    <goals>
-                                        <goal>cobertura</goal>
-                                    </goals>
-                                </execution>
-                            </executions>
-                        <!-- adding block to generate Cobertura Report -->
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
