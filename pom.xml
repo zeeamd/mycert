@@ -425,15 +425,6 @@
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>${cobertura.version}</version>
-                        <!-- new sec added -->
-                        <reportSets>
-                            <reportSet>
-                                <reports>
-                                    <report>cobertura</report>
-                                </reports>
-                            </reportSet>
-                        </reportSets>
-                        <!-- new sec added -->
                         <configuration>
                             <formats>
                                 <format>html</format>
